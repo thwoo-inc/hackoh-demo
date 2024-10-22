@@ -11,7 +11,7 @@ export default function Home() {
             <li key={page}>
               <a
                 className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-                href={`/${page}`}
+                href={`./${page}`}
               >
                 <Image
                   aria-hidden
